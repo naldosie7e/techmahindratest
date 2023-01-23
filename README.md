@@ -8,6 +8,7 @@ La api cuenta con los siguientes características:
 
 ## Creacion de usuarios
 Para este servicio solo se deben enviar los siguientes campos:
+```json
 {
   "usuaPassword": "12134546",
   "usuaFullName": "Camilo Vargas",
@@ -17,9 +18,11 @@ Para este servicio solo se deben enviar los siguientes campos:
   "rolId": 1,
   "usuaStatus": true
 }
+```
 
 ## Creacion de tareas
 Para este servicio solo se deben enviar los siguientes campos:
+```json
 {
   "tasTitle": "Test unit",
   "tasDecription": "This is a test",
@@ -29,3 +32,4 @@ Para este servicio solo se deben enviar los siguientes campos:
   "tasAssignTo": 3,
   "tasStatus": true  
 }
+```
